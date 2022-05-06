@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.register-div
+{
+    width: 30%;
+    height: 65%;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    background: teal;
+    border-radius: 20px;
+}
+.register-div-text
+{
+    font-size: 30px;
+}
+.phone-div, .lin-div, .fin-div, .role-div
+{
+    width: 65%;
+    height: 15%;
+}
+.phone-text, .lin-text, .fin-text, .role-text
+{
+    font-size: 20px;
+    text-align: left;
+}
+.phone-input, .lin-input, .fin-input, .role-input
+{
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid chartreuse;
+    border-top: 2px solid chartreuse;
+    width: 220px;
+    height: 25px;
+    font-size: 20px;
+    color: beige
+}
+i
+{
+    font-size: 20px;
+    background: beige;
+    height: 25px;
+    width: 25px;
+    border-radius: 5px;
+}
